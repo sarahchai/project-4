@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+.comment-container {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.comment-flex-element {
+    margin: 10px 10px 20px 20px;
+}
+
+.comment-username {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: underline;
+
+}
+
+.comment-like-button {
+    text-align: left;
+    background-color: white;
+    border: black solid 3px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.comment-like-button:hover {
+    background-color: rgb(184, 202, 238);
+    border: rgb(0, 6, 187) solid 3px;
+    cursor: pointer;
+}
+
+.comment-like-button.after {
+    cursor: default;
+    background-color: white;
+    border: black 3px solid;
+}
+
+.comment-like-button.after:hover {
+    cursor: default;
+    background-color: white;
+    border: black 3px solid;
+}
+
+.author-buttons.comments-buttons-container  {
+
+}
+
+.comment-flex-element.edit-comment {
+    display: flex;
+}
+
+.comment-author-buttons {
+    border-radius: 1.2em;
+    font-size: 18px;
+    background-color: rgb(52, 99, 135);
+    color: white;
+    padding: 5px 10px;
+}
+
+.comment-author-buttons:hover {
+    cursor: pointer;
+    background-color: rgb(31, 71, 101);
+}

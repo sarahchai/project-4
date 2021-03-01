@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+.user-profile-page-container {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.user-information-container {
+    background-color: rgba(179, 181, 187, 0.468);
+    margin: 20px 240px;
+    border-radius: 15px;
+    padding: 20px 35px 50px 35px;
+}
+
+.username {
+    color: #102B3F;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.user-information {
+    text-align: left;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.profile-button {
+    margin: 10px 0px;
+    color: #102B3F;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px;
+    border: 2px solid #102B3F;
+}
+
+.profile-button:hover {
+    background-color: #102B3F;
+    color: white;
+}
+
+
+.profile-button.clicked {
+    background-color: #102B3F;
+    color: white;
+}

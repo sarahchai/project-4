@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+.write-rant-container {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.write-rant-form {
+    margin: 0 auto;
+}
+
+.write-rant-form h3 {
+    font-size: 30px;
+    color: #102B3F;
+    font-weight: 700;
+}
+
+.write-rant-form h4 {
+    font-size: 20px;
+    color: rgb(31, 71, 101);
+}
+
+.content-input {
+    font-size: 18px;
+    border: #102B3F solid 3px;
+    border-radius: 4px;
+}
+
+.write-rant.button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 1.2em;
+    font-size: 18px;
+    padding: 15px 25px;
+    margin: 16px auto;
+    background-color: rgb(52, 99, 135);
+    color: white;
+}
+
+.write-rant.button:hover {
+    cursor: pointer;
+    background-color: rgb(31, 71, 101);
+}

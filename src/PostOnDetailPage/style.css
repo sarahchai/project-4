@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+.post-detail-page-container {
+    border: 4px solid #102B3F;
+    margin: 20px 200px;
+    padding: 30px 150px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 4px;
+
+}
+
+.author-buttons.post {
+    text-align: right;
+}
+
+.post-like-button {
+    text-align: left;
+    background-color: white;
+    border: black solid 3px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.post-like-button:hover {
+    background-color: rgba(250, 115, 115, 0.5);
+    border: rgb(255, 0, 0) solid 3px;
+    cursor: pointer;
+}
+
+.post-like-button.after {
+
+}
+
+.post-like-button.after:hover {
+    cursor: default;
+    background-color: white;
+    border: black 3px solid;
+}
+
+.detail-page.post-content {
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #102B3F;
+    border-radius: 8px;
+}
+
+.post-authored-button {
+    border-radius: 1.2em;
+    font-size: 18px;
+    padding: 5px 15px;
+    /* margin: 16px auto; */
+    background-color: rgb(52, 99, 135);
+    color: white;
+}
+
+.post-authored-button:hover {
+    background-color: rgb(46, 96, 135);
+    color: white;
+    cursor: pointer;
+}
